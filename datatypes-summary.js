@@ -33,18 +33,46 @@ const myFunction =function (){
 }
 
 console.log(typeof anotherId);
-c
+
 // https://262.ecma-international.org/5.1/#se-11.4.3
 
-Number => number
-String => string
-Boolean => boolean
-Null => object
-Undefined => undefined
-Symbol => symbol
-BigInt => bigint
+// Number => number
+// String => string
+// Boolean => boolean
+// Null => object
+// Undefined => undefined
+// Symbol => symbol
+// BigInt => bigint
 
 
-Array => Object
-Object => Object
-Function => Function
+// // Array => Object
+// Object => Object
+// Function => Function 
+
+
+
+
+//********************************************
+
+// Stack (primitive) and Heap (reference)
+
+let myYoutubename = "@taniyachauhan171"
+
+let anotherName = myYoutubename
+anotherName = "@DivyaThakur-123-ht"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "sunidhi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
