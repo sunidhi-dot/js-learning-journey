@@ -4,7 +4,7 @@ let score = "sunidhi";
 //console.log(typeof (score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
 
@@ -17,7 +17,7 @@ let isLoggedIn = "Sunidhi"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 console. log(typeof booleanIsLoggedIn);
-//onsole.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 //1 => true; 0 => false
 // "" => false;
