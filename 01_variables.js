@@ -14,7 +14,7 @@ accountPassword = "21212121"
 accountCity= "uttarkashi"
 
 
-
+// console.log(accountId);
 
 console.table([
   accountId,
@@ -23,3 +23,5 @@ console.table([
   accountCity,
   accountState
   ]);
+
+//* prefer not to use var because of issue in block scope and functional scope *//
