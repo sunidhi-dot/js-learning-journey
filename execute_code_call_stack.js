@@ -74,7 +74,7 @@ let result2 = addNum(10, 2);
 // addNum → function addNum(num1, num2) {
            // let total = num1 + num2;
            // return total;
-         // }
+          // }
 
 // Memory phase
 
